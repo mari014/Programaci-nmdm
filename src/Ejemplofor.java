@@ -128,8 +128,8 @@ public class Ejemplofor {
 
         // Genera 100 números aleatorios entre 1 y 100
         // Muestra la suma de los pares y la suma de los impares
-         int totalPares;
-         int totalImpares;
+         int totalPares=0;
+         int totalImpares=0;
          int tirada;
         for (int num = 1; num <=100; num ++){
             tirada =(int) (Math.random()*(100) + 1);
@@ -137,9 +137,9 @@ public class Ejemplofor {
 
                totalPares = totalPares + tirada;
            } else {
-               totalImpares
+               totalImpares = totalImpares + tirada;
            }
-           }
+        }
 
 
 
